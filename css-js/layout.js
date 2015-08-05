@@ -18,9 +18,17 @@ $('.tab4s').each(function(){
 		$(this).find('.tab4s-himg').addClass('tab4s-addHide');
 	});
 });
+$('#logintext').click(function(){
+	$('#loginani').animate({top:"500px"}); 
+});
+$('#signin').click(function(){
+	$('#loginani').animate({top:"-500px"}); 
+});
 
-
-
+$('#selectneed1btn').click(function(){
+	$('#selectneed1').hide(2000);
+	$('#selectneed2').show(2000);
+});
 
 
 
