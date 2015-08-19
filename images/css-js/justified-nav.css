@@ -1,0 +1,180 @@
+body {
+
+  padding-top: 20px;
+}
+.masthead{
+  width:1000px;
+}
+.container{width:80%}
+.headArea { margin:0 auto; width:100%; overflow:hidden; padding:15px 0px;}
+.head-L { float:left; padding:0px 0px 0px 0px; width:56%; height:84px;}
+.head-R { float:right; padding-top:0px; }
+.head-L img{width:100%; height: 110px}
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+.dropdown-menu li a{
+font-weight: 100;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  width:194px;
+  
+  color: #777;
+  text-align: center;
+  background-color: #EDEDED; 
+  
+}
+.dropdown-menu li a:hover{
+  background-color: #D1D821; 
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 20px 0px;
+  text-align: center;
+  background-color:#C7EFA1;
+}
+.jumbotron h2{color:white;}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+#selectneed2{
+  display:none;
+}
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  font-weight: 100;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  
+  color: #777;
+  text-align: center;
+  background-color: #D1D821; /* Old browsers */
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));*/
+  /*background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #88CC66 100%);*/
+  /*background-image:      -o-linear-gradient(top, #f5f5f5 0%, #88CC66 100%);*/
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #f5f5f5), to(#e5e5e5));*/
+  /*background-image:         linear-gradient(top, #f5f5f5 0%, #88CC66 100%);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1D821', endColorstr='#D1D821',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > li > a:hover{
+  background-color: #D7D8D8;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  font-weight: 100;
+  font-size: 18px;
+  background-color: #D7D8D8;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.comcontent{
+  margin-bottom: 5px;
+  width:33%;
+  display: inline-block;
+  
+
+}
+
+
+
+.panel-heading{
+  background-color: #D1D821;
+  padding: 10px 15px;
+  color:white;
+}
+
+.panel-success>.panel-heading{
+  background-color: #D1D821;
+}
+
+.carousel{width:100%;height:278px;}
+
+.carousel-indicators{
+  bottom:0px;
+
+}
+.carousel-indicators li.active,
+.carousel-indicators li{
+  border: 3px #D1D821 solid;
+  height: 16px;
+  width: 16px;
+}
+.carousel-indicators li.active{
+background-color: #D1D821;
+}
+
+.carousel-inner{
+  height:278px;
+}
+
+.panel{
+  border: 0px;
+  margin-bottom: 30px;
+}
+
+.footer{
+  font-size: 15pt;
+  color: white;
+  text-align: center;
+  width:100%;
+  padding:30px 0px;
+  background-color: #B0C934;
+  margin-bottom:50px;
+}
+
